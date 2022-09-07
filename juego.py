@@ -13,4 +13,5 @@ class Jugador:
     def __init__(self, name, color):
         self.nombre=name
         self.color=color
+
         
