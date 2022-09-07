@@ -2,6 +2,7 @@ import random
 #Lee el comando que manda el usuario y lo divide en partes
 comando = input()
 scomando = comando.split()
+
 #recursos puestos con fines de pruebas
 lad = 1
 tri = 1
@@ -41,6 +42,7 @@ def Bloque_de_comando(scomando,lad,tri,mad,obe):
         if(lad >= 1 and obe <= 1 and mad >=1 and tri <=1):
             print("constuida")
             print(scomando[1], scomando[2])
+            return scomando[1], scomando[2],"construir_ase"
 
         else:
          print("sos pobre")        
