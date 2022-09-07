@@ -4,11 +4,12 @@ comando = input()
 scomando = comando.split()
 
 #recursos puestos con fines de pruebas
-lad = 1
-tri = 1
-obe = 1
-mad = 1
-pie = 1
+pablo = 999
+lad = pablo
+tri = pablo
+obe = pablo
+mad = pablo
+pie = pablo
 
 #son las cartas de desarollo PUNTO DE VICTORIA; MONOPOLIO; RECURSOS; CAMINO; CABALLEROS
 devcard=["victor","mono","recurso","camino","arturo"]

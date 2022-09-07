@@ -24,4 +24,7 @@ class Tablero:
         t1[9],t1[a]=t1[a],t1[9]
         for i in t1:
             self.recursos,self.numeros=i
+
+#NO ENTIENDO UNA GOMA ORIBE
+#FIRMA -T
                 
