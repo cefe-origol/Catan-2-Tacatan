@@ -25,6 +25,6 @@ class Tablero:
         for i in t1:
             self.recursos,self.numeros=i
 
-#NO ENTIENDO UNA GOMA ORIBE
+#NO ENTIENDO UNA GOMA ORIBE!!!
 #FIRMA -T
                 
