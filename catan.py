@@ -67,10 +67,10 @@ def Bloque_de_comando(scomando,lad,tri,mad,obe):
          devcard[random]
          return devcard
          
-         pass
+         
 
     
 
 
-#ES PARA PROBAR LOS COMANDOS
+#ES PARA PROBAR LOS COMANDOS.
 Bloque_de_comando(scomando,lad,tri,mad,obe)
