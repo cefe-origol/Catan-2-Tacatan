@@ -1,16 +1,34 @@
 import random
 from clases import *
+
+#Modo de prueba 1 es on 0 es off
+test_mode = 1
+
 #Lee el comando que manda el usuario y lo divide en partes
 comando = input()
 scomando = comando.split()
+
+#Que jugador esta jugando
 turno = Jugador("jose", (255,255,255))
-#recursos puestos con fines de pruebas
-pablo = turno.inventario
-lad = pablo["ladrillo"]
-tri = pablo["trigo"]
-obe = pablo["lana"]
-mad = pablo["madera"]
-pie = pablo["piedra"]
+
+if (test_mode == 1):
+    #recursos puestos con fines de pruebas
+    pablo = 999
+    lad = pablo
+    tri = pablo
+    obe = pablo
+    mad = pablo
+    pie = pablo
+
+elif (test_mode == 0):
+    #recursos del jugador de turno 
+    pablo = turno.inventario
+    lad = pablo["ladrillo"]
+    tri = pablo["trigo"]
+    obe = pablo["lana"]
+    mad = pablo["madera"]
+    pie = pablo["piedra"]
+
 
 #son las cartas de desarollo PUNTO DE VICTORIA; MONOPOLIO; RECURSOS; CAMINO; CABALLEROS
 devcard=["victor","mono","recurso","camino","arturo"]
