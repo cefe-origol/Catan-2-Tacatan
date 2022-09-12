@@ -1,15 +1,16 @@
 import random
+from clases import *
 #Lee el comando que manda el usuario y lo divide en partes
 comando = input()
 scomando = comando.split()
-
+turno = Jugador("jose", (255,255,255))
 #recursos puestos con fines de pruebas
-pablo = 999
-lad = pablo
-tri = pablo
-obe = pablo
-mad = pablo
-pie = pablo
+pablo = turno.inventario
+lad = pablo["ladrillo"]
+tri = pablo["trigo"]
+obe = pablo["lana"]
+mad = pablo["madera"]
+pie = pablo["piedra"]
 
 #son las cartas de desarollo PUNTO DE VICTORIA; MONOPOLIO; RECURSOS; CAMINO; CABALLEROS
 devcard=["victor","mono","recurso","camino","arturo"]
@@ -72,5 +73,5 @@ def Bloque_de_comando(scomando,lad,tri,mad,obe):
     
 
 
-#ES PARA PROBAR LOS COMANDOS.
+#ES PARA PROBAR LOS COMANDOS
 Bloque_de_comando(scomando,lad,tri,mad,obe)
